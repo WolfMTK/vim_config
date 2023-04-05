@@ -38,6 +38,9 @@ Plugin 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'jistr/vim-nerdtree-tabs'
 
+" Colors
+Plugin 'sonph/onehalf', { 'rtp': 'vim' }
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -91,6 +94,7 @@ set fileencodings=utf8,cp1251
 set nu
 syntax on
 set clipboard=unnamed
+set cursorline
 
 " PythonSense
 let g:is_pythonsense_alternate_motion_keymaps = 1
@@ -115,3 +119,6 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+" Colors
+colorscheme onehalflight
