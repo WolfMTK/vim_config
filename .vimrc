@@ -15,7 +15,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 
 " Search
-Plugin 'kien/ctrlp.vim'
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
 
 " Commentary
 Plugin 'https://github.com/tpope/vim-commentary'
@@ -37,6 +37,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'jistr/vim-nerdtree-tabs'
+
+" AutoSave
+Plugin 'https://github.com/vim-scripts/vim-auto-save'
 
 " Colors
 Plugin 'sonph/onehalf', { 'rtp': 'vim' }
@@ -122,3 +125,6 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 " Colors
 colorscheme onehalflight
+
+" AutoSave
+let g:auto_save = 1
