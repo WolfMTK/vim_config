@@ -84,7 +84,7 @@ au BufNewFile,BufRead *.html,*css,*js set expandtab
 au BufNewFile,BufRead *.html,*css,*js set autoindent
 
 " Flagging Unnecessary Whitespace
-autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
+" autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
 " Settings vim
 set t_Co=256
@@ -106,7 +106,7 @@ let g:is_pythonsense_alternate_motion_keymaps = 1
 let g:ale_linters = {'python': 'all'}
 let g:ale_fixers = {'python': ['isort', 'yapf', 'remove_trailing_lines', 'trim_whitespace']}
 let g:ale_lsp_suggestions = 1
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
 let g:ale_go_gofmt_options = '-s'
 let g:ale_go_gometalinter_options = '— enable=gosimple — enable=staticcheck'
 let g:ale_completion_enabled = 1
